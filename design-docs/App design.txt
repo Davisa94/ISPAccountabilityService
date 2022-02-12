@@ -9,5 +9,22 @@ and collate that data into a databse.
 
 
 Design:
+The service:
 The service must reliably continue to run once run
-The service must reliably store the data 
+The service must reliably store the data to the database
+
+The Database:
+Design:
+   
+   Pings Table:
+      ID
+      ping_value
+      DateTime
+      ipv4_id
+      service_id(only if singular database used)
+The database may be run on a singular machine to accept data from multiple services
+   IF the database is run on only one machine:
+      The database must store the LAN IP of the device or another unuiqe identifier along with the data described in the DB Design
+
+
+
