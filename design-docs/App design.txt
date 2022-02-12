@@ -1,0 +1,13 @@
+Need: (what need does this app fulfill)
+We need to prove to our ISP that the speeds and 
+reliability that they are claiming to be providing 
+do not match what we are receiving.
+
+Purpose:
+This app will test both the ping times and the speeds of a network
+and collate that data into a databse.
+
+
+Design:
+The service must reliably continue to run once run
+The service must reliably store the data 
